@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <div class="form-group">
+          <label for="side1">Side #1 length (in inches)</label>
+          <input class="form-control" id="side1" type="text">
+        </div>
+        <div class="form-group">
+          <label for="side2">Side #2 length (in inches)</label>
+          <input class="form-control" id="side2" type="text">
+        </div>
+        <div class="form-group">
+          <label for="side3">Side #3 length (in inches)</label>
+          <input class="form-control" id="side3" type="text">
+        </div>
+        <button id="submitButton" type="submit" class="btn btn-info">Calculate</button>
+      </form>
+      <div class="results">
+        <h2>Results:</h2>
+        <p>Your triangle is:</p>
+        <p><span id="result"></span></p>
+      </div>
+    </div>
+  </body>
+</html>
